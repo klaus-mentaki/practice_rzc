@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PythonBase/PythonBase.iml" filepath="$PROJECT_DIR$/PythonBase/PythonBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaBase/javaBase.iml" filepath="$PROJECT_DIR$/javaBase/javaBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice_rzc.iml" filepath="$PROJECT_DIR$/practice_rzc.iml" />
     </modules>
