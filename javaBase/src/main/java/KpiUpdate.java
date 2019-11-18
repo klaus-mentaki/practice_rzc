@@ -5,6 +5,10 @@ import java.nio.file.Files;
 import java.util.Base64;
 import java.util.List;
 
+/**
+ * 对比阿里云数据库和远航通数据库中KPI指标脚本内容，有差异的代码替换为远航通代码
+ */
+
 public class KpiUpdate {
 
     static String sql_str = "INSERT INTO index_parameter(`name`,`organization`,`state`,`last_update_time`,`buzz_classification`,`detail`)VALUES('%name%','%org%',1,now(),'Oil','{\"interval\":null,\"script\":{\"string\": \"%script%\"}}');";
