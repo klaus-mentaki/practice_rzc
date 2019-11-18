@@ -1,0 +1,3 @@
+# Project exclude paths
+/javaBase/target/
+/out/
