@@ -4,10 +4,13 @@ public class AirportFile {
     private String longitude;
     private String latitude;
 
+    /**
+     * disposeCSVFile3类中创建的对象及构造方法
+     */
+
     public AirportFile() {
 
     }
-
 
     public String getAirport() {
         return airport;
